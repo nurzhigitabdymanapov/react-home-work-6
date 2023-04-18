@@ -1,0 +1,64 @@
+body {
+  background-color: #2a2a2a;
+}
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.ata{
+  background-color: #1F1F1F;
+  width: 762px;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 10px;
+}
+.cardStyle {
+  width: 748px;
+  height: 104px;
+  margin-top: 20px;
+  background: #4b4b4b;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 60px 550px 60px;
+}
+.dateStyle {
+  width: 82.11px;
+  height: 80px;
+  background: #2a2a2a;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  color: white;
+  margin-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 17px;
+}
+.priceStyle {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  width: 112px;
+  height: 44px;
+  background: #40005d;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.textStyle {
+  margin-left: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 60px;
+}

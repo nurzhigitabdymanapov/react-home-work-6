@@ -1,0 +1,35 @@
+.expenses-filter {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  height: 50px;
+  gap: 50px;
+  margin-bottom: 10px;
+}
+.expenses-filter_button {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.expenses-filter_button button {
+  width: 130px;
+  height: 35px;
+  border-radius: 5px;
+  border: 0;
+}
+.expenses-filter_button button:hover{
+transition: 0.5s;
+color: #fff;
+background-color: #4A026B;
+}
+.expenses-filter_control {
+  display: flex;
+  align-items: center;
+}
+.expenses-filter_control select {
+  width: 100px;
+  height: 35px;
+  border-radius: 5px;
+  border: 0;
+  text-align: center;
+}
